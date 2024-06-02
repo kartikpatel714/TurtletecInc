@@ -14,22 +14,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="hbr">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-      <div class="logo">TurtletecInc</div>
-      <div class="menu">
-        <nav class="nav-bar">
-          <a href="#home" class="active">Home</a>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#">Career</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <a href="index.html">Turtletec<span>Inc</span></a>
+        </div>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Connect</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section id="home" class="home">
@@ -75,7 +73,9 @@
               esse tempora atque, suscipit asperiores ducimus aut, quis eligendi
               neque?
             </p>
-            <a href="#" class="read-more">Read More</a>
+            <div class="btn">
+              <a href="#" class="read-more">Read More</a>
+            </div>
           </div>
         </div>
       </div>
@@ -263,3 +263,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+
